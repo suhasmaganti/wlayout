@@ -1,0 +1,38 @@
+* {
+	font-family: helvetica;
+  color: white;
+
+}
+
+p {
+	font-family: helvetica neue;
+	/*font-weight: lighter;*/
+}
+
+footer {
+	font-style: italic;
+	font-weight: bold;
+}
+
+a.skip:active, 
+    a.skip:focus, 
+    a.skip:hover {
+        left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+    }
+
+
+#highlights {
+  color: blue;
+  font-family: roboto;
+}
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

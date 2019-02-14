@@ -1,0 +1,14 @@
+
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 300px;
+  border: 10px solid #E7222E;
+  padding: 10px;
+  margin: 25px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
