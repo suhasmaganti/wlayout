@@ -1,12 +1,22 @@
 * {
-	font-family: helvetica;
+	font-family: roboto condensed;
   color: white;
 
 }
 
+h1 {
+  /*from Google fonts*/
+  font-family: Staatliches; 
+}
+
+h2,h3 {
+  /*from Font Awesome*/
+  font-family: trench;
+}
+
 p {
-	font-family: helvetica neue;
-	/*font-weight: lighter;*/
+  font-family: roboto condensed;
+  font-weight: lighter;
 }
 
 footer {
@@ -25,14 +35,13 @@ a.skip:active,
     }
 
 
-#highlights {
-  color: blue;
-  font-family: roboto;
-}
-
-
 div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#highlights {
+  color: blue;
+  font-family: roboto condensed;
 }
