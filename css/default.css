@@ -14,6 +14,10 @@ h2,h3 {
   font-family: trench;
 }
 
+body {
+  background-color: #000000;
+}
+
 p {
   font-family: roboto condensed;
   font-weight: lighter;
@@ -23,17 +27,6 @@ footer {
 	font-style: italic;
 	font-weight: bold;
 }
-
-a.skip:active, 
-    a.skip:focus, 
-    a.skip:hover {
-        left: 0; 
-        top: 0;
-        width: auto; 
-        height: auto; 
-        overflow: visible; 
-    }
-
 
 div {
   display: flex;
@@ -45,3 +38,22 @@ div {
   color: blue;
   font-family: roboto condensed;
 }
+
+div ul li i {
+  color: white;
+}
+
+a.skip { 
+  position:absolute; 
+  left:-10000px; 
+  top:auto; 
+  width:1px; 
+  height:1px; 
+  overflow:hidden;
+} 
+ 
+a.skip:focus { 
+  position:static; 
+  width:auto; 
+  height:auto; 
+} 
