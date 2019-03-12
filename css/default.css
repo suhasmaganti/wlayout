@@ -43,6 +43,7 @@ div ul li i {
   color: white;
 }
 
+/*Skip to content*/
 a.skip { 
   position:absolute; 
   left:-10000px; 
