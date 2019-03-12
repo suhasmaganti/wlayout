@@ -1,0 +1,55 @@
+* {
+	font-family: roboto condensed;
+  color: white;
+
+}
+
+h1 {
+  /*from Google fonts*/
+  font-family: Staatliches; 
+}
+
+h2,h3 {
+  /*from Font Awesome*/
+  font-family: trench;
+}
+
+body {
+  background-color: #000000;
+}
+
+p {
+  font-family: roboto condensed;
+  font-weight: lighter;
+}
+
+footer {
+	font-style: italic;
+	font-weight: bold;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div ul li i {
+  color: white;
+}
+
+/*Skip to content*/
+a.skip { 
+  position:absolute; 
+  left:-10000px; 
+  top:auto; 
+  width:1px; 
+  height:1px; 
+  overflow:hidden;
+} 
+ 
+a.skip:focus { 
+  position:static; 
+  width:auto; 
+  height:auto; 
+} 

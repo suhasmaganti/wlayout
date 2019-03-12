@@ -10,7 +10,7 @@ li {
   float: left;
 }
 
-li a {	
+li > a {	
   display: block;
   font-family: roboto condensed;
   font-weight: bold;
